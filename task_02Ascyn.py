@@ -12,7 +12,7 @@ async def task_as(name, key):
 
 
 async def main():
-    key = "e28540aada37d0679364b986687cbbfc"  # Ключ от openweather
+    key = "API"  # Ключ от openweather
     name = "New York"  # Можно вставить любое название из ['New York' 'London' 'Paris' 'Tokyo' 'Moscow' 'Sydney' 'Berlin'
     # 'Beijing' 'Rio de Janeiro' 'Dubai' 'Los Angeles' 'Singapore' 'Mumbai' 'Cairo' 'Mexico City']
     resp = await task_as(name, key)

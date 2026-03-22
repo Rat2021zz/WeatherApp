@@ -11,7 +11,7 @@ def task(name, key):
 
 data = pd.read_csv("data/temperature_data.csv")
 
-key = "e28540aada37d0679364b986687cbbfc"
+key = "API"
 name = "New York"
 resp = task(name, key)
 tem = resp["main"]["temp"]
